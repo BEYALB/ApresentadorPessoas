@@ -1,0 +1,65 @@
+
+:root{
+    --corPrincipal: #000000;
+    --corSecundaria: #ffffff;
+    --corTerciaria: #FF0000;
+}
+body{
+  background-color: var(--corPrincipal);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+     background-color: #333333;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 50px;
+     border-radius: 8px;
+     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+   
+}
+h1{
+    color:  orange;
+    text-transform: uppercase;
+}
+.mensagem{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+ input{
+   
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+ }
+ button{
+    padding: 10px 0px;
+    border-radius: 5px;
+ }
